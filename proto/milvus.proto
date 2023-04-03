@@ -833,6 +833,7 @@ message SearchRequest {
   uint64 travel_timestamp = 10;
   uint64 guarantee_timestamp = 11; // guarantee_timestamp
   int64  nq = 12;
+  repeated int64 primary_keys = 13;
 }
 
 message Hits {
